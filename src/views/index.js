@@ -1,0 +1,11 @@
+export { default as ForgotPassword } from "./ForgotPassword";
+export { default as Home } from "./Home";
+export { default as Login } from "./Login";
+export { default as PhishingDetection } from "./PhishingDetection";
+export { default as Profile } from "./Profile";
+export { default as Signup } from "./Signup";
+export { default as UpdateProfile } from "./UpdateProfile";
+export { default as UrlDetection } from "./UrlDetection";
+export { default as Reports } from "./Reports";
+export { default as PhishingDB } from "./PhishingDB";
+export { default as SchedulerWebsites } from "./SchedulerWebsites";
