@@ -63,7 +63,7 @@ export default function Home() {
                 {" | "}
                 <Card.Link
                   className="website-link m-0"
-                  href="https://github.com/NaorFahima/Phishing-detection"
+                  href="https://github.com/NaorFahima/Cyber-System-Detection-Client"
                   target="_blank"
                 >
                   Source
