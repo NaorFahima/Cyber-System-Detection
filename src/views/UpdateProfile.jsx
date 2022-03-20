@@ -46,7 +46,7 @@ export default function UpdateProfile() {
 
     Promise.all(promises)
       .then(() => {
-        history.push("/");
+        history.push("/Cyber-System-Detection-Client/");
       })
       .catch(() => {
         setError("Failed to update account");

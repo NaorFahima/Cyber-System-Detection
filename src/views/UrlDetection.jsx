@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { useAuth } from "../firebase/AuthContext";
-import { Form, Button, Card, Spinner, Container } from "react-bootstrap";
+import { Form, Button, Card, Spinner } from "react-bootstrap";
 
 export default function UrlDetection() {
   const urlRef = useRef();

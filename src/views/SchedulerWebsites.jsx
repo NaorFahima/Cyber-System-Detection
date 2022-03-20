@@ -9,9 +9,8 @@ import {
   TableCell,
   Toolbar,
   InputAdornment,
-  Box,
 } from "@material-ui/core";
-import { Table, Input, PageHeader } from "../components";
+import { Table, Input } from "../components";
 
 const useStyles = makeStyles((theme) => ({
   pageContent: {

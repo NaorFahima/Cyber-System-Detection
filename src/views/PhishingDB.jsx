@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { ReportsCard, ReportCard, PageHeader } from "../components";
-import { Paper, makeStyles, Box } from "@material-ui/core";
-import PeopleOutlineTwoToneIcon from "@material-ui/icons/PeopleOutlineTwoTone";
+import { ReportsCard, ReportCard } from "../components";
+import { Paper, makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   pageContent: {

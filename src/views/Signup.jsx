@@ -44,7 +44,7 @@ export default function Signup() {
           });
         }
       );
-      history.push("/");
+      history.push("/Cyber-System-Detection-Client/");
     } catch (error) {
       setError(error["message"]);
     }
@@ -88,7 +88,7 @@ export default function Signup() {
           </Button>
         </Form>
         <div className="w-100 text-center mt-2">
-          Already have an account? <Link to="/login">Log In</Link>
+          Already have an account? <Link to="/Cyber-System-Detection-Client/login">Log In</Link>
         </div>
       </Card.Body>
     </Card>

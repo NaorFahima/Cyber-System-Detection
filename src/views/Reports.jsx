@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Search } from "@material-ui/icons";
 import { useAuth } from "../firebase/AuthContext";
-import { Paper, makeStyles, Box } from "@material-ui/core";
+import { Paper, makeStyles } from "@material-ui/core";
 import { Button } from "react-bootstrap";
-import { ReportsCard, ReportCard, PageHeader } from "../components";
+import { ReportsCard, ReportCard } from "../components";
 
 const useStyles = makeStyles((theme) => ({
   pageContent: {

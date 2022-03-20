@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Card, Button, Alert, Container } from "react-bootstrap";
+import { Card, Button, Alert } from "react-bootstrap";
 import { useAuth } from "../firebase/AuthContext";
 import { Link, useHistory } from "react-router-dom";
-import { Box } from "@material-ui/core";
 
 export default function Profile() {
   const [error, setError] = useState("");
@@ -28,7 +27,7 @@ export default function Profile() {
     setError("");
     try {
       await logout();
-      history.push("/");
+      history.push("/Cyber-System-Detection-Client/");
     } catch {
       setError("Failed to log out");
     }
@@ -51,7 +50,7 @@ export default function Profile() {
             {` ${userDetails.firstName} ${userDetails.lastName}`}
             <br />
             <strong>Email:</strong> {currentUser.email}
-            <Link to="/update-profile" className="btn btn-primary w-100 mt-3">
+            <Link to="/Cyber-System-Detection-Client/update-profile" className="btn btn-primary w-100 mt-3">
               Update Profile
             </Link>
           </Card.Body>

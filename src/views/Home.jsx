@@ -42,7 +42,7 @@ export default function Home() {
          <img src={AppLogo} alt="App Logo" width="128" height="128" />
         </div>
           <span className="text-center">
-            <Card.Text inline>
+            <Card.Text>
               <h6 style={{ display: "inline" }}>
                 {"Designed and built by "}
                 <Card.Link
