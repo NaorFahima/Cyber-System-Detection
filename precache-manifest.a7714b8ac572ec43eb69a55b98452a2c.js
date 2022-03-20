@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d16ad811e90e70df1dc13fa307da7501",
+    "revision": "4e2efadfa302cdce44a1ec598104b65c",
     "url": "/Cyber-System-Detection-Client/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Cyber-System-Detection-Client/static/js/2.0cc48d39.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8fea4dd5ed7ba7820520",
-    "url": "/Cyber-System-Detection-Client/static/js/main.34e9bfa6.chunk.js"
+    "revision": "6597cedb89c26a057b8e",
+    "url": "/Cyber-System-Detection-Client/static/js/main.f00212c5.chunk.js"
   },
   {
     "revision": "9f18d91e097c19de3a35",
