@@ -16,7 +16,7 @@ export default function UpdateProfile() {
   const [userDetails, setUserDetails] = useState({});
 
   useEffect(() => {
-    fetch(`/api/user/${currentUser.uid}`, {
+    fetch(`https://cyber-system-detection-api.herokuapp.com/api/user/${currentUser.uid}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -46,7 +46,7 @@ export default function UpdateProfile() {
 
     Promise.all(promises)
       .then(() => {
-        history.push("/Cyber-System-Detection-Client/");
+        history.push("/#/");
       })
       .catch(() => {
         setError("Failed to update account");
@@ -62,7 +62,7 @@ export default function UpdateProfile() {
       uid: currentUser.uid,
     };
 
-    fetch("/api/user", {
+    fetch("https://cyber-system-detection-api.herokuapp.com/api/user", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -132,7 +132,7 @@ export default function UpdateProfile() {
             </Button>
           </Form>
         </Card.Body>
-        <Link className="text-center mt-1" to="/">
+        <Link className="text-center mt-1" to="/#/">
           Cancel
         </Link>
       </Card>

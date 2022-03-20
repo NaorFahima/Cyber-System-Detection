@@ -2,7 +2,6 @@
     "name": "cyber-system-detection",
     "version": "0.1.0",
     "private": true,
-    "proxy": "https://cyber-system-detection-api.herokuapp.com/",
     "homepage": "http://NaorFahima.github.io/Cyber-System-Detection-Client",
     "dependencies": {
         "@material-ui/core": "^4.12.3",

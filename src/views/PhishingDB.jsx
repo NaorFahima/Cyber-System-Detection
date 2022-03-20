@@ -23,7 +23,7 @@ export default function PhishingDB() {
   useEffect(() => getReport(), []);
 
   const getReport = () => {
-    fetch("/api/phishing-db", {
+    fetch("https://cyber-system-detection-api.herokuapp.com/api/phishing-db", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

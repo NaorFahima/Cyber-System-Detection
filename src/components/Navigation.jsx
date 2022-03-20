@@ -20,7 +20,7 @@ export default function Navigation() {
 
   return (
       <Navbar bg="dark" variant="dark" fixed="top">
-        <Navbar.Brand href="/Cyber-System-Detection-Client/">
+        <Navbar.Brand href="/Cyber-System-Detection-Client/#/">
           <img
             alt=""
             src={Logo}
@@ -31,24 +31,24 @@ export default function Navigation() {
           &nbsp;&nbsp;Cyber System Detection
         </Navbar.Brand>
         <Nav className="m-auto pe-5">
-          <Nav.Link href="/Cyber-System-Detection-Client/">Home</Nav.Link>
+          <Nav.Link href="/Cyber-System-Detection-Client/#/">Home</Nav.Link>
           <NavDropdown title="Detection" id="blocks-nav-dropdown">
             {currentUser && (
-              <NavDropdown.Item href="/Cyber-System-Detection-Client/phishing-detection">
+              <NavDropdown.Item href="/Cyber-System-Detection-Client/#/phishing-detection/">
                 Phishing Detection
               </NavDropdown.Item>
             )}
-            <NavDropdown.Item href="/Cyber-System-Detection-Client/url-detection">
+            <NavDropdown.Item href="/Cyber-System-Detection-Client/#/url-detection/">
               URL Detection
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>
         <Nav className="m-auto pe-5">
-          <Nav.Link href="/Cyber-System-Detection-Client/phishing-db">Phishing DB</Nav.Link>
+          <Nav.Link href="/Cyber-System-Detection-Client/#/phishing-db/">Phishing DB</Nav.Link>
           {!currentUser && (
             <>
-              <Nav.Link href="/Cyber-System-Detection-Client/login">Log in</Nav.Link>{" "}
-              <Nav.Link href="/Cyber-System-Detection-Client/signup">Sign up</Nav.Link>
+              <Nav.Link href="/Cyber-System-Detection-Client/#/login/">Log in</Nav.Link>{" "}
+              <Nav.Link href="/Cyber-System-Detection-Client/#/signup/">Sign up</Nav.Link>
             </>
           )}
 
@@ -56,15 +56,15 @@ export default function Navigation() {
             <Nav className="m-auto pe-5">
               <NavDropdown title="Profile" id="blocks-nav-dropdown">
                 {currentUser && (
-                  <NavDropdown.Item href="/Cyber-System-Detection-Client/profile">
+                  <NavDropdown.Item href="/Cyber-System-Detection-Client/#/profile/">
                     View Profile
                   </NavDropdown.Item>
                 )}
-                <NavDropdown.Item href="/Cyber-System-Detection-Client/scheduler-websites">
+                <NavDropdown.Item href="/Cyber-System-Detection-Client/#/scheduler-websites/">
                   Scheduler Websites
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/Cyber-System-Detection-Client/reports">Reports</NavDropdown.Item>
-                <NavDropdown.Item href="/Cyber-System-Detection-Client/" onClick={handleLogout}>
+                <NavDropdown.Item href="/Cyber-System-Detection-Client/#/reports/">Reports</NavDropdown.Item>
+                <NavDropdown.Item href="/Cyber-System-Detection-Client/#/" onClick={handleLogout}>
                   Logout
                 </NavDropdown.Item>
               </NavDropdown>

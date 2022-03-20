@@ -10,7 +10,7 @@ export default function Profile() {
   const history = useHistory();
 
   useEffect(() => {
-    fetch(`/api/user/${currentUser.uid}`, {
+    fetch(`https://cyber-system-detection-api.herokuapp.com/api/user/${currentUser.uid}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -27,7 +27,7 @@ export default function Profile() {
     setError("");
     try {
       await logout();
-      history.push("/Cyber-System-Detection-Client/");
+      history.push("/#/");
     } catch {
       setError("Failed to log out");
     }
@@ -50,7 +50,7 @@ export default function Profile() {
             {` ${userDetails.firstName} ${userDetails.lastName}`}
             <br />
             <strong>Email:</strong> {currentUser.email}
-            <Link to="/Cyber-System-Detection-Client/update-profile" className="btn btn-primary w-100 mt-3">
+            <Link to="/update-profile" className="btn btn-primary w-100 mt-3">
               Update Profile
             </Link>
           </Card.Body>

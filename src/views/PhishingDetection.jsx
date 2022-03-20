@@ -28,7 +28,7 @@ export default function PhishingDetection() {
   };
 
   const postPhishingDetection = (data) => {
-    fetch("/api/phishing-detection", {
+    fetch("https://cyber-system-detection-api.herokuapp.com/api/phishing-detection", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

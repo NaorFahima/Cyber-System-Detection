@@ -18,7 +18,7 @@ export default function UrlDetection() {
       uid: currentUser ? currentUser.uid : null,
     };
     console.log(data);
-    fetch("/api/url-detection", {
+    fetch("https://cyber-system-detection-api.herokuapp.com/api/url-detection", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

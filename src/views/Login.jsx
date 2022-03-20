@@ -18,7 +18,7 @@ export default function Login() {
       setLoading(true);
       await login(emailRef.current.value, passwordRef.current.value);
       setLoading(false);
-      history.push("/Cyber-System-Detection-Client/");
+      history.push("/#/");
     } catch (error) {
       setError(error["message"]);
     }
@@ -49,7 +49,7 @@ export default function Login() {
           </Button>
         </Form>
         <div className="w-100 text-center mt-3">
-          <Link to="/Cyber-System-Detection-Client/forgot-password">Forgot Password?</Link>
+          <Link to="/forgot-password">Forgot Password?</Link>
         </div>
         <div className="w-100 text-center mt-2">
           Need an account? <Link to="/signup">Sign Up</Link>

@@ -30,7 +30,7 @@ export default function Reports() {
   const [headCells, setHeadCells] = useState(firstStateHeadCells);
 
   const getReport = () => {
-    fetch(`/api/reports/${currentUser.uid}`, {
+    fetch(`https://cyber-system-detection-api.herokuapp.com/api/reports/${currentUser.uid}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

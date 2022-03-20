@@ -55,7 +55,7 @@ export default function SchedulerWebsites() {
   };
 
   const getReport = () => {
-    fetch(`/api/reports/${currentUser.uid}`, {
+    fetch(`https://cyber-system-detection-api.herokuapp.com/api/reports/${currentUser.uid}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -81,7 +81,7 @@ export default function SchedulerWebsites() {
       url: elementData.domain,
     };
 
-    fetch(`/api/update-scheduler`, {
+    fetch(`https://cyber-system-detection-api.herokuapp.com/api/update-scheduler`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
