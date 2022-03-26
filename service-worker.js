@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Cyber-System-Detection-Client/precache-manifest.a7714b8ac572ec43eb69a55b98452a2c.js"
+  "/Cyber-System-Detection-Client/precache-manifest.fa2e67f38d7a906ede80cc41f2902677.js"
 );
 
 self.addEventListener('message', (event) => {

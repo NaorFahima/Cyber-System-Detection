@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e2efadfa302cdce44a1ec598104b65c",
+    "revision": "a3b929cc9c0e4b6ec6c4215f455a5c6b",
     "url": "/Cyber-System-Detection-Client/index.html"
   },
   {
-    "revision": "2f7bd8d3a581e73bbbb0",
+    "revision": "4069c0ca9eb2016b8ded",
     "url": "/Cyber-System-Detection-Client/static/css/2.1cace5d8.chunk.css"
   },
   {
-    "revision": "2f7bd8d3a581e73bbbb0",
-    "url": "/Cyber-System-Detection-Client/static/js/2.0cc48d39.chunk.js"
+    "revision": "4069c0ca9eb2016b8ded",
+    "url": "/Cyber-System-Detection-Client/static/js/2.2c1198a5.chunk.js"
   },
   {
     "revision": "ff0a94dfe80ec99bfeab0a4326a8fd50",
-    "url": "/Cyber-System-Detection-Client/static/js/2.0cc48d39.chunk.js.LICENSE.txt"
+    "url": "/Cyber-System-Detection-Client/static/js/2.2c1198a5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6597cedb89c26a057b8e",
-    "url": "/Cyber-System-Detection-Client/static/js/main.f00212c5.chunk.js"
+    "revision": "3fb7b95701fd0ec7672a",
+    "url": "/Cyber-System-Detection-Client/static/js/main.e95ba30b.chunk.js"
   },
   {
     "revision": "9f18d91e097c19de3a35",
