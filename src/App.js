@@ -20,10 +20,6 @@ import {
 } from "./views";
 
 function App() {
-    /* When app first load, poke to API Server to wake him up */
-  useEffect(() => {
-    fetch("https://cyber-system-detection-api.herokuapp.com/")
-  }, []);
   return (
     <AuthProvider>
       <Navigation />
